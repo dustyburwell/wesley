@@ -1,0 +1,11 @@
+[package]
+name = "wesley"
+description = "Run a command when a file add/update event occurs"
+version = "0.1.0"
+license = "MIT"
+authors = ["Dusty Burwell <dusty.burwell@raise.com>"]
+
+[dependencies]
+getopts = "0.2"
+notify = "2.5.5"
+glob = "0.2.11"
